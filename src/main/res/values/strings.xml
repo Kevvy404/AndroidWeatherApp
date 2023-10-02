@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">
+        WeatherApp
+    </string>
+
+    <string name="info">
+        The Android weather app is a mobile application that allows users to check the current
+        weather conditions and forecast for any location. The app uses data from a weather API to
+        provide accurate information such as temperature and wind speed. You can visit the API
+        website by clicking on the button below.
+    </string>
+</resources>

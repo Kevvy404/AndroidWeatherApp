@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+       <item
+           android:id="@+id/idPresetCities"
+           app:showAsAction="never"
+           android:title="Preset Cities">
+
+               <menu>
+                        <item
+                            android:id="@+id/idExeter"
+                            android:title="Exeter"
+                            >
+                        </item>
+
+                       <item
+                           android:id="@+id/idLondon"
+                           android:title="London"
+                           >
+                       </item>
+
+                       <item
+                           android:id="@+id/idParis"
+                           android:title="Paris"
+                           >
+                       </item>
+
+                       <item
+                           android:id="@+id/idShanghai"
+                           android:title="Shanghai"
+                           >
+                       </item>
+
+                       <item
+                           android:id="@+id/idNewYork"
+                           android:title="New York"
+                           >
+                       </item>
+               </menu>
+       </item>
+
+        <item
+            android:id="@+id/idChangeBG"
+            android:title="Change Background Colour"
+            app:showAsAction="never"
+            >
+            <menu>
+
+                <item android:id="@+id/idBg1"
+                    android:title="Blue/Dark-Blue (Default)"
+                    >
+                </item>
+
+                <item android:id="@+id/idBg2"
+                    android:title="Blue/Purple"
+                    >
+                </item>
+
+                <item android:id="@+id/idBg3"
+                    android:title="Yellow/Blue"
+                    >
+                </item>
+
+                <item android:id="@+id/idBg4"
+                    android:title="Red/Purple"
+                    >
+                </item>
+
+            </menu>
+
+        </item>
+
+        <item
+            android:id="@+id/idMoreInfo"
+            android:title="More Information"
+            app:showAsAction="never"
+            >
+        </item>
+
+        <item
+            android:id="@+id/idRefreshApp"
+            android:title="Refresh App"
+            app:showAsAction="never"
+            >
+        </item>
+
+        <item
+            android:id="@+id/idExitApp"
+            android:title="Close App"
+            app:showAsAction="never"
+            >
+        </item>
+</menu>
